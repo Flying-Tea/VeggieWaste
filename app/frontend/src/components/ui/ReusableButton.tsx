@@ -7,7 +7,7 @@ const buttonStyles = cva(
     variants: {
     intent: {
         primaryButton: "bg-primary text-white hover:bg-primary/80 cursor-pointer", // Kept for future accessability
-        secondaryButton: "bg-secondary text-white hover:bg-secondary-hover cursor-pointer",
+        secondaryButton: "bg-secondary text-black hover:bg-secondary-hover cursor-pointer",
     },
     size: {
         sm: "text-sm px-3 py-1.5",

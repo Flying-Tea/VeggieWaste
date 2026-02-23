@@ -1,1 +1,14 @@
 *.pth
+
+# .NET build output
+bin/
+obj/
+
+# Rider / VS / VS Code
+.vs/
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
