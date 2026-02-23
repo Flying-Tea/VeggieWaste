@@ -7,16 +7,23 @@ function App() {
   const [imageSrc, setImageSrc] = useState<string | null>(null);
 
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files[0]) {
-      const file = e.target.files[0];
-      // Create a temporary URL
-      setImageSrc(URL.createObjectURL(file));
-      console.log("Selected file:", file);
-    }
+    if (e.target.files && !e.target.files[0]) return; 
+
+    const file = e.target.files![0];
+    // Create a temporary URL
+    setImageSrc(URL.createObjectURL(file));
+    console.log("Selected file:", file);
+
+    const formData = new FormData();
+    formData.append('image', file);
+    
     try {
-      await axios.post('http://localhost:5293/api/veggie/classify', {
-        image: e.target.files![0],
+      const response = await axios.post('http://localhost:5293/api/veggie/classify', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
       });
+      console.log("Classification result:", response.data);
     } catch (error) {
       console.error("Error fetching API data:", error);
     }
