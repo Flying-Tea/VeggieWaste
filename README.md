@@ -21,7 +21,7 @@ Food waste is a major global issue as a whole humanitiy throws out 1+ Billion to
 - Confidence scoring for transparency
 - ONNX model inference in the backend
 
-### Tech Stack
+## Tech Stack
 
 #### Frontend
 
@@ -52,7 +52,7 @@ Food waste is a major global issue as a whole humanitiy throws out 1+ Billion to
 3. The API returns the classifcation and confidence score.
 4. The frontend displays the result instantly.
 
-### Running Locally
+## Running Locally
 
 ### Prerequisites
 
@@ -83,4 +83,4 @@ A local host of your choice.
 
 ## Dataset
 
-[This dataset is from Kaggle made by **Swoyam Nayak**.](https://www.kaggle.com/datasets/swoyam2609/fresh-and-stale-classification)
+[The dataset used in this project is from Kaggle made by **Swoyam Nayak**.](https://www.kaggle.com/datasets/swoyam2609/fresh-and-stale-classification)
