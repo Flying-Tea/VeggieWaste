@@ -86,3 +86,9 @@ A local host of your choice.
 ## Dataset
 
 [The dataset used in this project is from Kaggle made by **Swoyam Nayak**.](https://www.kaggle.com/datasets/swoyam2609/fresh-and-stale-classification)
+
+### Special Thanks To
+
+- Insomnia for API Testing
+- Ngrok for LAN testing across devices
+- Hack For Humanity for hosting this hackathon
