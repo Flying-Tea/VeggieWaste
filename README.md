@@ -21,6 +21,8 @@ Food waste is a major global issue as a whole humanitiy throws out 1+ Billion to
 - Confidence scoring for transparency
 - ONNX model inference in the backend
 
+![App Image](/Examples/Example1.png)
+
 ## Tech Stack
 
 #### Frontend
