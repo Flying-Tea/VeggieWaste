@@ -1,10 +1,10 @@
 # VeggieWaste
 
-Unsure about your vegtables or fruits freshness? This app allows you to get a second opinion on the state of your veggies! Built for the 2026 Hack For Humanity Competition. This project uses MobileNetV3 as a base model, then further trained to recognize the mold on vegtables and fruits. Using ONNX to export the model into a C# backend for quicker loading and access times.
+Unsure about your vegetables or fruits freshness? This app allows you to get a second opinion on the state of your veggies! Built for the 2026 Hack For Humanity Competition. This project uses MobileNetV3 as a base model, then further trained to recognize the mold on vegetables and fruits. Using ONNX to export the model into a C# backend for quicker loading and access times.
 
 ## The Problem
 
-Food waste is a major global issue as a whole humanitiy throws out 1+ Billion tons of edible food each year. As food is thrown out just because it looks questionable (e.g bruising or looks cheap) this leads to:
+Food waste is a major global issue as a whole humanity throws out 1+ Billion tons of edible food each year. As food is thrown out just because it looks questionable (e.g bruising or looks cheap) this leads to:
 
 - Unnecessary food waste
 - Increased environment impact
@@ -42,16 +42,16 @@ Food waste is a major global issue as a whole humanitiy throws out 1+ Billion to
 
 - **MobileNetV3** Convolutional Neural Network
 - Light weight and high accuracy-to-performance ratio
-- Exported to ONNX for cross-platform inferance
-- Real-time image classifcation
+- Exported to ONNX for cross-platform inference
+- Real-time image classification
 
 ### How It Works
 
 1. The user sends an image through the web interface, where it is then sent to the backend.
-2. The backend recieves the image then:
+2. The backend receives the image then:
    - Preprocesses the image
-   - Runs inferance using **MobileNetV3-based ONNX model** that was trained using 10,000+ images.
-3. The API returns the classifcation and confidence score.
+   - Runs inference using **MobileNetV3-based ONNX model** that was trained using 10,000+ images.
+3. The API returns the classification and confidence score.
 4. The frontend displays the result instantly.
 
 ## Running Locally
