@@ -12,7 +12,7 @@ Food waste is a major global issue as a whole humanity throws out 1+ Billion ton
 
 ### The Solution
 
-**VeggieWaste** uses machine learning to analyze images of vegtables to determine whether they are **fresh** or **rotten**, helping users make educated decisions.
+**VeggieWaste** uses machine learning to analyze images of vegetables to determine whether they are **fresh** or **rotten**, helping users make educated decisions.
 
 ### Features
 
